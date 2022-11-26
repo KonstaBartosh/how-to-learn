@@ -37,6 +37,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   width: 388px;
   position: absolute;
   left: 64px;
@@ -95,15 +96,20 @@
   line-height: 34px;
   width: 80%;
   min-width: 784px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+
 }
 
 .two-columns__paragraph {
   margin: 0;
 }
 
-.two-columns__paragraph_margin-space {
-  margin: 30px 0;
-}
+/* .two-columns__paragraph:margin-space(2) {
+  padding: 30px 0;
+} */
 
 .two-columns__span-accent {
   font-size: 24px;
@@ -143,6 +149,7 @@
   list-style: none;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
   margin: 60px 0 0;
@@ -152,31 +159,27 @@
 
 .table__cell {
   width: 250px;
+  margin-bottom: 60px;
 }
 
 .table__heading {
-  margin: 0 0 20px;
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
 
 .table__text {
-  margin: 0;
+  margin: 20px 0 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
 
-.table__text_bottom-string {
-  margin-top: 20px;
-}
-
 /* Секция о методе Фейнмана */
 
 .feynman {
-  height: 890px;
-  min-height: 600px;
+  min-height: 890px;
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
@@ -250,6 +253,8 @@
 }
 
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
+  overflow: hidden;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -285,14 +290,16 @@
   font-weight: 600;
 }
 
-.column_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 .footer__author {
-  position: absolute;
-  left: 0;
-  bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column-links {
@@ -310,13 +317,7 @@
   font-weight: normal;
 }
 
-.footer__social-icon {
-  display: flex;
-  flex-direction: column;
-  margin: 0 0 16px;
-}
-
-.footer__column-link_icon {
+.footer__social_icon {
   width: 16px;
   height: 16px;
   margin: 0 10px 0 0;
