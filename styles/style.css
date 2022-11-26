@@ -53,6 +53,11 @@
   z-index: 3;
 }
 
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -86,6 +91,7 @@
   line-height: 1.2;
   margin: 0;
   font-weight: normal;
+  color: #2f80ed;
 }
 
 .two-columns__main-text {
@@ -203,6 +209,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2f80ed;
 }
 
 .feynman__portrait {
@@ -308,13 +315,4 @@
   width: 16px;
   height: 16px;
   margin: 0 10px 0 0;
-}
-
-
-.color-blue {
-  color: #2f80ed;
-}
-
-.link {
-  text-decoration: none;
 }
