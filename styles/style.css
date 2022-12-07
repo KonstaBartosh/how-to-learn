@@ -75,9 +75,14 @@
 
 /* Секция статьи */
 
+.description {
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+}
+
 .two-columns {
   display: flex;
-  margin: 100px auto;
   width: 80%;
   justify-content: space-between;
 }
@@ -111,7 +116,7 @@
   line-height: 34px;
   font-weight: 600;
 }
-/* Секция с карточками Ткхники обучения */
+/* Секция с карточками Техники обучения */
 
 .techniques {
   display: flex;
@@ -184,7 +189,60 @@
 
 .oakley {
   background-color: #f2f2f2;
-  padding-top: 60px;
+  margin: 0;
+  padding-top: 160px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Секция о методе Фейнмана */
+
+.feynman {
+  min-height: 890px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.feynman__title {
+  width: 648px;
+  text-align: center;
+  margin: 100px auto 0;
+  z-index: 4;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.feynman__subtitle {
+  z-index: 3;
+  margin-top: 70px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.feynman__portrait {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 867px;
+  height: 637px;
 }
 
 
@@ -244,56 +302,6 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
-
-/* Секция о методе Фейнмана */
-
-.feynman {
-  min-height: 890px;
-  background-color: #f2f2f2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-.feynman__title {
-  width: 648px;
-  text-align: center;
-  margin: 100px auto 0;
-  z-index: 4;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: 600;
-}
-
-.feynman__subtitle {
-  z-index: 3;
-  margin-top: 70px;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-}
-
-.feynman__link {
-  z-index: 2;
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  text-decoration: none;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  color: #2f80ed;
-}
-
-.feynman__portrait {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: 1;
-  width: 867px;
-  height: 637px;
 }
 
 /* Секция о принципах обучения */
