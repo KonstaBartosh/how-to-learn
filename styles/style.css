@@ -252,7 +252,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 100px;
+  margin: 100px auto;
 }
 
 .section-title {
@@ -302,6 +302,48 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+
+/* Книга Салмана Хана */
+
+.khan {
+
+}
+
+.khan__container {
+
+}
+
+.khan__author {
+
+}
+
+.khan__title {
+
+}
+
+.khan__quote {
+
+}
+
+.khan__quote-author {
+
+}
+
+.khan__quote-author-sublime {
+
+}
+
+.khan__book-container {
+
+}
+
+.khan__book-pic {
+
+}
+
+.khan__buy-link {
+  
 }
 
 /* Секция о принципах обучения */
